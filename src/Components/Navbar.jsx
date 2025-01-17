@@ -170,21 +170,21 @@ const Navbar = () => {
               Download CV
             </a>
 
-            {role === "Admin" && (
+            {role === "Admin" ? (
               <button
                 onClick={handleLogout}
                 className="px-4 py-2 text-white text-sm border border-white rounded-md hover:bg-green-500 hover:border-green-500"
               >
                 Log out
               </button>
-            )}
+            ) :
 
             <button
                 onClick={handleLogin}
                 className="px-4 py-2 text-white text-sm border border-white rounded-md hover:bg-green-500 hover:border-green-500"
               >
                 Log in
-              </button>
+              </button>}
           </div>
         </div>
       </nav>
