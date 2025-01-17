@@ -13,6 +13,7 @@ function App() {
   
        <Route path='/' element={<Main/>}/>
         <Route path='/createproject' element={<CreateProject/>}/>
+   
         <Route path='/projectdetail/:id' element={<ProjectDetail/>}/>
         <Route path='/manageproject' element={<ManageProject/>}/>
         <Route path='/login' element={<Login/>}/>
