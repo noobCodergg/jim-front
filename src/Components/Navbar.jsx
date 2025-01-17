@@ -28,6 +28,9 @@ const Navbar = () => {
     setIsMenuOpen(false); // Close menu when an item is clicked
   };
 
+   const handleLogin=()=>{
+    navigate('/login')
+  }
   return (
     <div>
       <style>
@@ -174,6 +177,13 @@ const Navbar = () => {
                 Log out
               </button>
             )}
+
+            <button
+                onClick={handleLogin}
+                className="px-4 py-2 text-white text-sm border border-white rounded-md hover:bg-green-500 hover:border-green-500"
+              >
+                Log in
+              </button>
           </div>
         </div>
       </nav>
