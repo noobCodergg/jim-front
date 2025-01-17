@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate=useNavigate();
   const [scrolling, setScrolling] = useState(false);
   const role = localStorage.getItem("role");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
