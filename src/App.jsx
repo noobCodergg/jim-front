@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='font-raleway'>
       <Routes>
-        <Route path='/' element={<Main/>}/>
+        <Route path='/' element={<Login/>}/>
         <Route path='/createproject' element={<CreateProject/>}/>
         <Route path='/projectdetail/:id' element={<ProjectDetail/>}/>
         <Route path='/manageproject' element={<ManageProject/>}/>
