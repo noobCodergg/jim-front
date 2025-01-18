@@ -87,7 +87,7 @@ const HeroSection = () => {
           setTypedTextSecondLine((prev) => prev + welcomeText[typingIndex]);
         }
         setTypingIndex(typingIndex + 1);
-      }, 100);
+      }, 10);
 
       return () => clearTimeout(timeoutId);
     } else if (typingIndex === welcomeText.length) {
