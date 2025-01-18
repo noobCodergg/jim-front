@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const HeroSection = () => {
   const welcomeText =
-    "Welcome to my portfolio! I'm Jim Ferdous, a passionate designer and structural engineer. Explore my work, skills, and projects to learn more about how I can bring your ideas to life";
+    "Welcome! I am Jim Ferdous, I’m a dedicated designer and structural engineer, combining technical precision with creative vision to deliver innovative, sustainable solutions. With a strong foundation in both design and engineering, I’m committed to transforming concepts into reality while ensuring efficiency and structural integrity. Let’s collaborate and create impactful, forward thinking projects that stand the test of time.";
 
   const expertise = [
     "AutoCAD",
