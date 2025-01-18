@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const HeroSection = () => {
   const welcomeText =
-    "Welcome to my portfolio! I'm Jim Ferdous, a passionate developer and designer. Explore my work, skills, and projects to learn more about how I can bring your ideas to life";
+    "Welcome to my portfolio! I'm Jim Ferdous, a passionate designer and structural engineer. Explore my work, skills, and projects to learn more about how I can bring your ideas to life";
 
   const expertise = [
     "AutoCAD",
