@@ -108,7 +108,7 @@ const AboutSection = () => {
             exceed your expectations.
           </h1>
           <button className="inline-flex items-center px-6 py-3 text-white border border-1 bg-transparent hover:bg-lime-500 font-medium mt-4">
-            <a href="https://www.linkedin.com/in/jim-ferdous-4868b9155/" target="_blank">Hire me now!</a>
+            <a href="https://www.linkedin.com/in/md-ferdous-bellah-4868b9155/" target="_blank">Hire me now!</a>
             <svg
               className="ml-2 w-5 h-5"
               fill="currentColor"
